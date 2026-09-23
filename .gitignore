@@ -1,0 +1,29 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# .NET build
+bin/
+obj/
+
+# Python - dùng cho phần AI sau này
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+s
+# Secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# AI training outputs
+runs/
