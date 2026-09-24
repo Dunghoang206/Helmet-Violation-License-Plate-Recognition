@@ -1,0 +1,14 @@
+# Dự án phát hiện không đội mũ và OCR biển số xe
+# Chưa cần cài đặt chi tiết ngay lúc khởi tạo, bổ sung khi bắt đầu triển khai.
+
+# Ví dụ tham khảo:
+# ultralytics
+# opencv-python
+# easyocr
+# paddleocr
+# torch
+# torchvision
+# numpy
+# pandas
+# matplotlib
+# albumentations
