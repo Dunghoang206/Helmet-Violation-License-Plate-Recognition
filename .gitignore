@@ -1,29 +1,60 @@
-# Visual Studio
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Visual Studio / .NET
 .vs/
 *.user
 *.suo
-
-# .NET build
+*.cache
 bin/
 obj/
-
-# Python - dùng cho phần AI sau này
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-s
-# Secrets
-.env
-.env.*
+[Bb]in/
+[Oo]bj/
 
 # IDE
 .vscode/
 .idea/
+*.code-workspace
 
-# Windows
-Thumbs.db
-.DS_Store
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
 
-# AI training outputs
+# Environment / secrets
+.env
+.env.*
+
+# Logs / temporary files
+*.log
+*.tmp
+*.bak
+
+# ML / training artifacts
 runs/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.weights
+*.h5
+*.pkl
+
+# Data generated during experiments
+output/
+results/
+reports/
+
+# Optional: ignore local dataset folders if you do not want to commit them
+# data/raw/
+# data/processed/
