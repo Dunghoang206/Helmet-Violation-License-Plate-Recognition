@@ -133,15 +133,18 @@ Do đó:
 
 ### 6. Pipeline tổng thể
 
+### 6. Pipeline tổng thể
+
 Pipeline dự kiến của hệ thống:
 
+```text
 Video giao thông
         ↓
 Tiền xử lý dữ liệu
         ↓
 YOLO26 Object Detection
         ↓
-Phát hiện người điều khiển/xe/mũ bảo hiểm
+Phát hiện người điều khiển / xe / mũ bảo hiểm
         ↓
 Xác định trường hợp không đội mũ bảo hiểm
         ↓
@@ -156,6 +159,7 @@ Thông tin vi phạm
 Ứng dụng WinForms
         ↓
 SQL Server
+```
 
 Phần Machine Learning được phát triển trong thư mục `HelmetViolationML`,
 trong khi giao diện quản lý và lưu trữ dữ liệu được phát triển riêng bằng
